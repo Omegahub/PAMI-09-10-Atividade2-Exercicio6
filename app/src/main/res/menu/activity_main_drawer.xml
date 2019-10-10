@@ -3,24 +3,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+
         <item
-            android:id="@+id/nav_home"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="@string/menu_home" />
+            android:id="@+id/nav_Skyrim"
+            android:title="Skyrim" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:id="@+id/nav_StreetFighter"
+            android:title="Street Fighter" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
-        <item
-            android:id="@+id/nav_tools"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="@string/menu_tools" />
-    </group>
+            android:id="@+id/nav_ResidentEvil"
+            android:title="Resident Evil" />
+    <item
+        android:id="@+id/nav_TheLastOfUs"
+        android:title="The Last Of Us" />
+    <item
+        android:id="@+id/nav_AssasinsCreed"
+        android:title="Assasins Creed" />
 
     <item android:title="Communicate">
         <menu>
