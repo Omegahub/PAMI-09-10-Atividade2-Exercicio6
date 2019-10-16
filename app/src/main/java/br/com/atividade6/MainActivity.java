@@ -76,6 +76,12 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
+
+        String nome = null;
+        int idimagem = 0;
+
+
+
         int id = item.getItemId();
 
         if (id == R.id.nav_Skyrim) {
