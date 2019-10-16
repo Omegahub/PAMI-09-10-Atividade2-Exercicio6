@@ -85,14 +85,24 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_Skyrim) {
+            nome = "Skyrim";
+            idimagem = R.drawable.img5;
 
         } else if (id == R.id.nav_AssasinsCreed) {
+            nome = "Assasins Creed";
+            idimagem = R.drawable.img2;
 
         } else if (id == R.id.nav_ResidentEvil) {
+            nome = "Resident Evil";
+            idimagem = R.drawable.img1;
 
         } else if (id == R.id.nav_StreetFighter) {
+            nome = "Street Fighter";
+            idimagem = R.drawable.img4;
 
         }else if (id == R.id.nav_TheLastOfUs) {
+            nome = "The Last Of Us";
+            idimagem = R.drawable.img3;
 
         }
         else if (id == R.id.nav_share) {
