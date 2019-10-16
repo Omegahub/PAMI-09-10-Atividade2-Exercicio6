@@ -78,15 +78,18 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.nav_home) {
-            // Handle the camera action
-        } else if (id == R.id.nav_gallery) {
+        if (id == R.id.nav_Skyrim) {
 
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_AssasinsCreed) {
 
-        } else if (id == R.id.nav_tools) {
+        } else if (id == R.id.nav_ResidentEvil) {
 
-        } else if (id == R.id.nav_share) {
+        } else if (id == R.id.nav_StreetFighter) {
+
+        }else if (id == R.id.nav_TheLastOfUs) {
+
+        }
+        else if (id == R.id.nav_share) {
 
         } else if (id == R.id.nav_send) {
 
